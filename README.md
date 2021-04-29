@@ -1,5 +1,5 @@
 # redchina_vue
-
+别问这是啥，问就是思修作业
 ## Project setup
 ```
 npm install

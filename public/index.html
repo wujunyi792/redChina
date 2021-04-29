@@ -5,6 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+      <style>
+          #app{
+              /*height: 100%;*/
+              /*display: flex;*/
+              /*flex-direction: column;*/
+              flex: 1;
+          }
+          html,body{
+              width: 100vw;
+          }
+          body{
+              min-height: 100%;
+              display: flex;
+              flex-direction: column;
+          }
+          footer{
+              text-align: center;
+              color: gray;
+          }
+      </style>
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
@@ -13,5 +33,6 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <footer class="footer">MJclouds.com 2021&nbsp;&nbsp;&nbsp;<a href="http://beian.miit.gov.cn/" target="_blank">沪ICP备20002882号</a></footer>
   </body>
 </html>
